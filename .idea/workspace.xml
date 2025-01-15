@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34bc8564-f817-4db7-ac76-e171f3e4b0fc" name="Changes" comment="first code">
-      <change afterPath="$PROJECT_DIR$/practice1.py" afterDir="false" />
+    <list default="true" id="34bc8564-f817-4db7-ac76-e171f3e4b0fc" name="Changes" comment="practice type casting">
+      <change afterPath="$PROJECT_DIR$/pactice3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.pactice3.executor": "Run",
+    "Python.practice1.executor": "Run",
+    "Python.practice2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
@@ -85,7 +88,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736931914144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="practice data types">
+      <option name="closed" value="true" />
+      <created>1736935290698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736935290698</updated>
+    </task>
+    <task id="LOCAL-00004" summary="practice type casting">
+      <option name="closed" value="true" />
+      <created>1736937940064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736937940064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,7 +120,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first code" />
-    <option name="LAST_COMMIT_MESSAGE" value="first code" />
+    <MESSAGE value="practice data types" />
+    <MESSAGE value="practice type casting" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice type casting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
