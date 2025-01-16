@@ -4,4 +4,4 @@ print("Hello, " + user_name + "!")
 
 # Output Formatting
 age = 20
-print(f"I am {age} years old.")  # Using f-strings
+print("I am {age} years old.")  # Using f-strings
