@@ -5,14 +5,14 @@ current_directory = os.getcwd()
 print(f"Current working directory: {current_directory}")
 
 # List files in the current directory
-files_in_directory = os.listdir('.')
+files_in_directory = os.listdir('..')
 print("Files in current directory:")
 for file in files_in_directory:
     print(file)
 
 # Create a new directory
-#os.mkdir("new_directory")
-print("New directory 'new_directory' created.")
+#os.mkdir("FileHandling")
+print("New directory 'FileHandling' created.")
 
 print(f"Operating System: {os.name}")
 

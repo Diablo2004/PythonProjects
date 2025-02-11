@@ -15,4 +15,3 @@ print(85 in student_scores)
 
 numbers = [1, 2, 3, 4, 5]
 print(10 not in numbers)
-print(3 not in numbers)

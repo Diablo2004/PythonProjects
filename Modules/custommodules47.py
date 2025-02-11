@@ -1,6 +1,6 @@
 import example46
 
-result=example46.pi
+result= example46.pi
 
 print(result)
 print(example46.square(3))
