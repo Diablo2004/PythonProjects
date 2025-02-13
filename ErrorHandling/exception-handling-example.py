@@ -8,14 +8,11 @@ def safe_division():
             break
         except ZeroDivisionError:
             print("Error: Division by zero is not allowed. Try again.")
-
         except ValueError:
             print("Error: Please enter valid numeric values.")
-
         except KeyboardInterrupt:
             print("\nOperation interrupted by user. Exiting...")
             break  # Exit on Ctrl+C
-
         except Exception as e:
             print(f"Unexpected Error: {e}")
 

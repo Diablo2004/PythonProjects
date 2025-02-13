@@ -1,7 +1,7 @@
 import yaml
 
-with open('one.yaml','r') as read_file:
-    content=yaml.safe_load(read_file)
+with open('ex1.yaml','r') as read_file:
+    content = yaml.safe_load(read_file)
     print(content)
     print(type(content))
 

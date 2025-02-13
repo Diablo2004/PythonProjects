@@ -5,7 +5,7 @@ except ValueError:
     print("Invalid input! Please enter a valid number.")
 except ZeroDivisionError:
     print("Cannot divide by zero!")
-else: # works when no exception occurs
+else: # Works when no exception occurs
     print(f"Success! The result is {result}.")
 
 
