@@ -4,68 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34bc8564-f817-4db7-ac76-e171f3e4b0fc" name="Changes" comment="Basic python concepts">
-      <change afterPath="$PROJECT_DIR$/ControlFlow/LoopsAndLoopControl/forloops26.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControlFlow/LoopsAndLoopControl/patterns1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/BankingProgram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Strings/stringmethods23.py" afterDir="false" />
+    <list default="true" id="34bc8564-f817-4db7-ac76-e171f3e4b0fc" name="Changes" comment="Fixed the comments after review and added finally examples">
+      <change afterPath="$PROJECT_DIR$/oops/class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oops/class2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oops/class3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oops/modifying-attributes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2Dcollection28.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/2Dcollection28.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/argsandkwargs36.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/argsandkwargs36.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/argumentsandreturn34.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/argumentsandreturn34.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compoundinterest25.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/LoopsAndLoopControl/compoundinterest25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custommodules47.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/custommodules47.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructureslist27.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/datastructureslist27.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionaries31.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/dictionaries31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example46.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/example46.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example48.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/example48.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forloops26.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions33.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/functions33.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functionspractice37.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/functionspractice37.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keywordargs35.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/keywordargs35.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-case statements39.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/match-case statements39.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/membershipoperators38.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operators/membershipoperators38.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modulesmath40.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/modulesmath40.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modulesos44.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/modulesos44.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modulesrandom41.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/modulesrandom41.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modulessys45.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/modulessys45.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberguessinggame42.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/numberguessinggame42.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openingandclosingfile49.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/openingandclosingfile49.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.csv" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/people.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndVariables/variablesanddatatypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operators/LogicalOperators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operators/BitwiseOperators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operators/AssignmentOperators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operators/MembershipOperators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operators/IdentityOperators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice15.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/Conditional/ConditionalStatements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice16.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/LoopsAndLoopControl/ForLoop1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice17.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/LoopsAndLoopControl/NestedForLoop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice18.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/LoopsAndLoopControl/WhileLoop1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/BasicStrings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndVariables/typeCasting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/SlicingStrings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice21.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/EscapeCharacters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice3.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndVariables/inputoutput.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice5.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndVariables/TypeOf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice6.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndVariables/ValidVariables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice7.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndVariables/DynamicTyping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operators/ArithmeticOperators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operators/ComparisionOperators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyhtonquizgame29.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/pyhtonquizgame29.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonCalculator22.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/Conditional/pythonCalculator22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readingandwritingfuiles50.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/readingandwritingfuiles50.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readingandwritingincsv51.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandling/readingandwritingincsv51.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restrauntorderprogram32.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/restrauntorderprogram32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rockpaperscissors43.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/rockpaperscissors43.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ErrorHandling/sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart28.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/LoopsAndLoopControl/shoppingcart28.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stringmethods23.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try,except,finally52.py" beforeDir="false" afterPath="$PROJECT_DIR$/ErrorHandling/try,except,finallyAndRaisingExceptions52.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tupleandsets30.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/tupleandsets30.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type_conversion4.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTypesAndVariables/type_conversion4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whileloop24.py" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/LoopsAndLoopControl/whileloop24.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +17,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -100,16 +49,26 @@
   "keyToString": {
     "Python.2Dcollection28.executor": "Run",
     "Python.BankingProgram.executor": "Run",
+    "Python.CreateYaml.executor": "Run",
+    "Python.CustomExceptionAgeValidation.executor": "Run",
+    "Python.ExceptionHandlingImplementation.executor": "Run",
+    "Python.MoreExamplesOfErrors.executor": "Run",
     "Python.NestedForLoop.executor": "Run",
+    "Python.ReadWriteMl.executor": "Run",
     "Python.argsandkwargs36.executor": "Run",
     "Python.argumentsandreturn34.executor": "Run",
+    "Python.class.executor": "Run",
+    "Python.class2.executor": "Run",
+    "Python.class3.executor": "Run",
     "Python.compoundinterest.executor": "Run",
     "Python.compoundinterest25.executor": "Run",
     "Python.custommodules47.executor": "Run",
     "Python.datastructures.executor": "Run",
     "Python.datastructureslist27.executor": "Run",
     "Python.dictionaries31.executor": "Run",
+    "Python.elseBlock.executor": "Run",
     "Python.example46.executor": "Run",
+    "Python.finally.executor": "Run",
     "Python.forloops.executor": "Run",
     "Python.forloops26.executor": "Run",
     "Python.functions33.executor": "Run",
@@ -118,6 +77,7 @@
     "Python.main.executor": "Run",
     "Python.match-case statements39.executor": "Run",
     "Python.membershipoperators38.executor": "Run",
+    "Python.modifying-attributes.executor": "Run",
     "Python.modules40.executor": "Run",
     "Python.modulesos44.executor": "Run",
     "Python.modulesrandom.executor": "Run",
@@ -164,7 +124,7 @@
     "Python.whileloop24.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "practice"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -344,7 +304,63 @@
       <option name="project" value="LOCAL" />
       <updated>1738657926563</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Basic python concepts">
+      <option name="closed" value="true" />
+      <created>1739272929973</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739272929974</updated>
+    </task>
+    <task id="LOCAL-00020" summary="YAML files">
+      <option name="closed" value="true" />
+      <created>1739359062363</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739359062363</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Custom Exception">
+      <option name="closed" value="true" />
+      <created>1739359075635</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1739359075635</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Else Block">
+      <option name="closed" value="true" />
+      <created>1739359087663</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739359087663</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Errors Examples">
+      <option name="closed" value="true" />
+      <created>1739359099867</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1739359099867</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Implementing Exception Handling using real life example">
+      <option name="closed" value="true" />
+      <created>1739359142783</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1739359142783</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fixed the comments after review and added finally examples">
+      <option name="closed" value="true" />
+      <created>1739446296913</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1739446296913</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,7 +389,13 @@
     <MESSAGE value="practice break and continue in nested for loop" />
     <MESSAGE value="practice loops using a real world example" />
     <MESSAGE value="Basic python concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic python concepts" />
+    <MESSAGE value="YAML files" />
+    <MESSAGE value="Custom Exception" />
+    <MESSAGE value="Else Block" />
+    <MESSAGE value="Errors Examples" />
+    <MESSAGE value="Implementing Exception Handling using real life example" />
+    <MESSAGE value="Fixed the comments after review and added finally examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the comments after review and added finally examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
