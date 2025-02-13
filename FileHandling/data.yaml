@@ -1,0 +1,10 @@
+age: 21
+details:
+  city: Hyderabad
+  job: Software Engineer
+email: mehul@example.com
+name: Mehul
+skills:
+- Python
+- Machine Learning
+- Cloud
