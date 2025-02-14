@@ -1,4 +1,4 @@
-class Car:
+class Car: # Display info of a car
     def __init__(self, brand, model, year):
         self.brand = brand
         self.model = model
@@ -15,7 +15,7 @@ print(car1.display_info())
 print(car2.display_info())
 
 
-class Person:
+class Person: # Display person information
     def __init__(self, name="Unknown", age=0):  # Default values
         self.name = name
         self.age = age

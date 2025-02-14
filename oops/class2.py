@@ -1,4 +1,4 @@
-class University:
+class University: # Display University Name
     university_name = "VIT University"  # Class variable - shared by all objects
 
     def __init__(self, student_name):

@@ -1,7 +1,7 @@
 #Class Method,Instance Method and Static Method
 
 #Instance Method - Works with object instance
-class Dog:
+class Dog: # Sample class for instance method
     def __init__(self, name):
         self.name = name
 
@@ -12,7 +12,7 @@ dog = Dog("Bruno")
 print(dog.speak())
 
 #Class Method - Works with the class itself
-class Company:
+class Company: # Sample class for class method
     company_name = "Google"
 
     @classmethod
