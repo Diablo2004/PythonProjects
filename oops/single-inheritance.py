@@ -3,20 +3,23 @@
 #               class Child(Parent)
 
 # Single Inheritance
-class Animal: # Parent Class
+class Animal:
+    """Represents an animal with a name and a sound."""
+
     def __init__(self, name):
         self.name = name
 
     def make_sound(self):
         return "Some sound"
 
-
-# Dog class inherits from Animal
 class Dog(Animal):
-    def make_sound(self):  # Overriding method
+    """Represents a dog, a subclass of Animal, with a custom sound."""
+
+    def make_sound(self):
         return "Bark!"
 
 
 dog = Dog("Buddy")
 print(dog.name)  # Buddy
 print(dog.make_sound())  # Bark
+

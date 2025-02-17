@@ -1,4 +1,6 @@
-class Laptop: # Sample class to implement modification of attributes
+class Laptop:
+    """A class representing a Laptop with brand and price, and the ability to apply a discount."""
+
     def __init__(self, brand, price):
         self.brand = brand
         self.price = price
@@ -7,6 +9,7 @@ class Laptop: # Sample class to implement modification of attributes
         if discount < 0:
             raise ValueError("Discount cannot be negative!")
         self.price -= self.price * (discount / 100)
+
 
 # Creating object
 laptop1 = Laptop("Dell", 1000)

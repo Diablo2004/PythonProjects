@@ -1,9 +1,11 @@
-# Encapsulation - Refers to restricting direct access to an objects data and methods
+# Encapsulation - Refers to restricting direct access to an object's data and methods
 #                 Data Hiding
 #                 Controlled Access
 #                 Security
 
 class BankAccount:
+    """A class representing a bank account with encapsulated balance."""
+
     def __init__(self, account_holder, balance):
         self.account_holder = account_holder  # Public Attribute
         self.__balance = balance  # Private Attribute
@@ -31,9 +33,6 @@ account = BankAccount("John Doe", 1000)
 # Accessing public attribute
 print("Account Holder:", account.account_holder)
 
-# Accessing private attribute directly (Not Recommended!)
-# print(account.__balance)  # AttributeError
-
 # Accessing private data using method
 print("Current Balance:", account.get_balance())
 
@@ -41,9 +40,9 @@ account.deposit(200)
 account.withdraw(300)
 
 
-
-# Using Getters And Setters
 class Student:
+    """A class representing a student with encapsulated age using getters and setters."""
+
     def __init__(self, name, age):
         self.name = name
         self.__age = age  # Private Attribute
