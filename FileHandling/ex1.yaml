@@ -1,0 +1,5 @@
+platform: youtube
+type: channel
+video:
+  - tutorials
+  - shorts
