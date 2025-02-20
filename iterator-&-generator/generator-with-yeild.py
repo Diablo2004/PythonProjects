@@ -1,6 +1,8 @@
 def fibonacci():
     """
     Generator that yields the fibonacci sequence
+     The user should expect integer values representing Fibonacci numbers.
+
     """
     a,b=0,1
     while True:
@@ -15,7 +17,9 @@ print("-------------")
 
 def even_numbers(start, end):
     """
-    Generator that yields even numbers in the range from start to end (inclusive).
+    even_numbers(start, end) – This generator yields even integers sequentially
+    from the specified start value to the end value (both inclusive).
+
     """
     for num in range(start, end + 1):
         if num % 2 == 0:

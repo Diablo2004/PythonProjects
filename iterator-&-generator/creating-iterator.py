@@ -30,26 +30,38 @@ print("------------")
 
 class MyRange:
     """
-    Custom iterator that behaves like range(start, stop, step)
+    Custom iterator that behaves like range(start, stop, step).
+
+    Ensures valid input and prevents non-integer or None values.
     """
+
     def __init__(self, start, stop, step):
-        self.start=start
-        self.stop=stop
-        self.step=step
-        self.current=start
+        if not all(isinstance(i, int) for i in (start, stop, step)):
+            raise ValueError("All arguments (start, stop, step) must be integers.")
+        if step == 0:
+            raise ValueError("Step cannot be zero.")
+        if start is None or stop is None or step is None:
+            raise ValueError("None values are not allowed.")
+
+        self.start = start
+        self.stop = stop
+        self.step = step
+        self.current = start
 
     def __iter__(self):
         return self
 
     def __next__(self):
-        if self.current>=self.stop:
+        if self.current >= self.stop:
             raise StopIteration
         else:
-            current_value=self.current
-            self.current+=self.step
+            current_value = self.current
+            self.current += self.step
             return current_value
 
-myRange=MyRange(1,10,2)
+
+myRange = MyRange(1, 10, 2)
+
 for num in myRange:
     print(num)
 
@@ -58,6 +70,8 @@ print("------------")
 class Fibonacci:
     """
     Fibonacci sequence generator as an iterator.
+    fibonacci() – This generator yields Fibonacci numbers sequentially up to the specified limit.
+    The user should expect integer values representing Fibonacci numbers.
     """
     def __init__(self,stop):
         self.stop=stop

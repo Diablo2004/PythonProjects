@@ -75,19 +75,16 @@ print(next(key_iter))
 
 print("--------------")
 
-# Example: Using iter() and next() to read a file
-file = open("sample.txt", "r")
+# Example: Using iter() and next() to read a file with proper closure
+with open("sample.txt", "r") as file:
+    file_iter = iter(file)  # Create an iterator for the file
 
-# Create an iterator for the file
-file_iter = iter(file)
-
-# Use next() to read each line
-print(next(file_iter))  # Output: Line 1 content
-print(next(file_iter))  # Output: Line 2 content
-print(next(file_iter))  # Output: Line 3 content
-
-# print(next(file_iter))  # Raises StopIteration
-
-file.close()
+    try:
+        print(next(file_iter))
+        print(next(file_iter))
+        print(next(file_iter))
+        # print(next(file_iter))
+    except StopIteration:
+        print("End of file reached.")
 
 
