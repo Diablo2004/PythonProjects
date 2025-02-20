@@ -4,10 +4,10 @@ def fibonacci():
      The user should expect integer values representing Fibonacci numbers.
 
     """
-    a,b=0,1
+    a,b = 0,1
     while True:
         yield a
-        a,b=b,a+b
+        a,b = b,a+b
 
 fib=fibonacci()
 for _ in range(10): # underscore is used as a variable name when you want to indicate that the value of variable is not important.

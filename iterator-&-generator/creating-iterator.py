@@ -40,8 +40,6 @@ class MyRange:
             raise ValueError("All arguments (start, stop, step) must be integers.")
         if step == 0:
             raise ValueError("Step cannot be zero.")
-        if start is None or stop is None or step is None:
-            raise ValueError("None values are not allowed.")
 
         self.start = start
         self.stop = stop
@@ -60,7 +58,7 @@ class MyRange:
             return current_value
 
 
-myRange = MyRange(1, 10, 2)
+myRange = MyRange(1, 10,2)
 
 for num in myRange:
     print(num)
