@@ -68,6 +68,21 @@ text4 = "Python is great!"
 print(bool(re.search(pattern, text3)))
 print(bool(re.search(pattern, text4)))
 
+print("----------------")
+
+# Extract YouTube Video IDs from URLs
+
+pattern = r"(?<=v=)[\w-]+"
+urls = ["https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://youtu.be/dQw4w9WgXcQ"]
+
+for url in urls:
+    match = re.search(pattern, url)
+    if match:
+        print(match.group())  # Output: dQw4w9WgXcQ
+
+# (?<=v=) → Looks for v= (positive lookbehind)
+# [\w-]+ → Matches the YouTube ID
+
 print("--------")
 
 pattern = r"Python"
