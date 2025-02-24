@@ -72,21 +72,21 @@ class Fibonacci:
     The user should expect integer values representing Fibonacci numbers.
     """
     def __init__(self,stop):
-        self.stop=stop
-        self.a=0
-        self.b=1
-        self.start=1
+        self.stop = stop
+        self.a = 0
+        self.b = 1
+        self.start = 1
 
     def __iter__(self):
         return self
     def __next__(self):
-        if self.start>self.stop:
+        if self.start > self.stop:
             raise StopIteration
         else:
-            fib_number=self.a
-            self.a=self.b
-            self.b=self.b+fib_number
-            self.start+=1
+            fib_number = self.a
+            self.a = self.b
+            self.b = self.b+fib_number
+            self.start += 1
             return fib_number
 
 fib=Fibonacci(10)
