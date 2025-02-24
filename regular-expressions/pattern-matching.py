@@ -11,7 +11,7 @@ print(re.match(pattern, text2))
 
 print("------")
 
-# Matches later in the string but doesnt find a match
+# Matches later in the string but doesn't find a match
 
 pattern = r"Python"
 text1 = "Python is great!"  # 'Python' is at the beginning

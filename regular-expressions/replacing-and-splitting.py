@@ -6,7 +6,8 @@ pattern = r"\d+"  # Matches digits
 text = "I have 3 cats and 5 dogs."
 
 new_text = re.sub(pattern, "X", text)
-print(new_text)
+print(new_text)  # Output: "I have X cats and X dogs."
+
 
 print("---------")
 
@@ -16,7 +17,7 @@ pattern = r"\d{12}(\d{4})"  # Captures last 4 digits
 text = "My card number is 1234567812345678."
 
 masked_text = re.sub(pattern, "************\\1", text)
-print(masked_text)
+print(masked_text) # Output: "My card number is ************5678."
 
 # \d{12} → Matches the first 12 digits
 # (\d{4}) → Captures the last 4 digits
@@ -40,7 +41,7 @@ text = "Hello, this is a test string."
 pattern = r"[aeiouAEIOU]"
 
 result = re.sub(pattern, "", text)
-print(result)
+print(result) # Output: "Hll, ths s  tst strng."
 
 print("--------")
 
@@ -50,7 +51,8 @@ pattern = r"\s+"  # Splits by one or more spaces
 text = "Python   is   fun!"
 
 words = re.split(pattern, text)
-print(words)
+print(words) # Output: ['Python', 'is', 'fun!']
+
 
 print("--------")
 
@@ -60,7 +62,7 @@ pattern = r",|;"
 text = "apple,banana;cherry,grape;orange"
 
 words = re.split(pattern, text)
-print(words)
+print(words) # Output: ['apple', 'banana', 'cherry', 'grape', 'orange']
 
 print("------------")
 
