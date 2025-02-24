@@ -57,4 +57,23 @@ text2 = "End of the story."
 print(bool(re.search(pattern, text1)))
 print(bool(re.search(pattern, text2)))
 
+# Checking for phone numbers in a given text
+
+pattern = r"\b\d{3}-\d{3}-\d{4}\b"  # Matches phone numbers like 123-456-7890
+
+text1 = "Call me at 123-456-7890."
+text2 = "No phone number provided."
+
+matches1 = re.findall(pattern, text1)
+matches2 = re.findall(pattern, text2)
+
+print(matches1)  # Output: ['123-456-7890']
+print(matches2)  # Output: [] (empty list, since no phone number is found)
+
+# Handling the case where no match is found
+if not matches2:
+    print("No phone numbers found in the text2.")
+
+print("------------")
+
 
