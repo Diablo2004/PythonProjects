@@ -1,0 +1,13 @@
+AmazonAutomation/
+│── tests/
+│    ├── test_amazon.py
+│── pages/
+│    ├── base_page.py
+│    ├── login_page.py
+│    ├── home_page.py
+│    ├── product_page.py
+│    ├── cart_page.py
+│── utils/
+│    ├── config.py
+│── conftest.py
+│── requirements.txt
